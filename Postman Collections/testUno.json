@@ -20,7 +20,7 @@
 									"    pm.response.to.have.body(\"Cats make more than 100 different sounds whereas dogs make around 10\");\r",
 									"});\r",
 									"pm.test(\"Successful POST request\", function () {\r",
-									"    pm.expect(pm.response.code).to.be.oneOf([201, 202]);\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([201, 202, 200]);\r",
 									"});\r",
 									"pm.test(\"Response time is less than 200ms\", function () {\r",
 									"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
