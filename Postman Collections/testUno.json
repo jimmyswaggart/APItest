@@ -10,7 +10,7 @@
 			"item": [
 				{
 					"name": "Cat Facts",
-					"_postman_id": "7503e039-8118-4b85-85ae-61b54ec2cfa0",
+					"id": "7503e039-8118-4b85-85ae-61b54ec2cfa0",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -24,7 +24,7 @@
 				},
 				{
 					"name": "Dog Breeds",
-					"_postman_id": "15ed3e5f-37d8-4a08-ae6c-26d1470fc4c2",
+					"id": "15ed3e5f-37d8-4a08-ae6c-26d1470fc4c2",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -38,7 +38,7 @@
 				},
 				{
 					"name": "Pet Food Facts",
-					"_postman_id": "3df01ad8-bb63-4d48-bc80-b775d1fdb534",
+					"id": "3df01ad8-bb63-4d48-bc80-b775d1fdb534",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -51,7 +51,7 @@
 					"response": []
 				}
 			],
-			"_postman_id": "cc9a641a-56d8-4433-93cc-88b8e45f4865",
+			"id": "cc9a641a-56d8-4433-93cc-88b8e45f4865",
 			"description": "These are public API endpoints for animals.",
 			"event": [
 				{
@@ -75,19 +75,6 @@
 					}
 				}
 			]
-		},
-		{
-			"name": "New Request",
-			"_postman_id": "2318bb75-75a0-4c41-8bf7-fbe35b73c1ee",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": null
-			},
-			"response": []
 		}
 	]
 }
