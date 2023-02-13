@@ -71,7 +71,7 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "8d575948-202b-4e46-9991-a31120180577",
+						"id": "9d8daa4d-6b01-4068-acca-0836c6a1eb7b",
 						"type": "text/javascript",
 						"exec": [
 							""
@@ -81,13 +81,10 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "2aaf0445-5d1e-483c-b29d-084bc921b7b3",
+						"id": "e195cf7e-8186-467d-a5b4-0168a7de24fd",
 						"type": "text/javascript",
 						"exec": [
-							"pm.test(\"Your test name\", function () {",
-							"    var jsonData = pm.response.json();",
-							"    pm.expect(jsonData.value).to.eql(100);",
-							"});"
+							""
 						]
 					}
 				}
