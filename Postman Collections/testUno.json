@@ -38,6 +38,20 @@
 				},
 				{
 					"name": "Dog Breeds",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "26537aff-f69b-46df-bd4b-0f80dbf4af01",
+								"exec": [
+									"pm.test(\"Body matches string\", function () {\r",
+									"    pm.expect(pm.response.text()).to.include(\"westhighland\");\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"id": "15ed3e5f-37d8-4a08-ae6c-26d1470fc4c2",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
