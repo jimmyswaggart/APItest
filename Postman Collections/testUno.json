@@ -1,0 +1,93 @@
+{
+	"info": {
+		"_postman_id": "1d434c50-d222-4a92-ab24-19dc62cb6dc0",
+		"name": "APIamigos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Animals",
+			"item": [
+				{
+					"name": "Cat Facts",
+					"_postman_id": "7503e039-8118-4b85-85ae-61b54ec2cfa0",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "https://cat-fact.herokuapp.com/facts/",
+						"description": "Facts about cats.\n\nURL - https://alexwohlbruck.github.io/cat-facts/"
+					},
+					"response": []
+				},
+				{
+					"name": "Dog Breeds",
+					"_postman_id": "15ed3e5f-37d8-4a08-ae6c-26d1470fc4c2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "https://dog.ceo/api/breeds/list/all",
+						"description": "List all dog breeds.\n\nURL - https://dog.ceo/dog-api/documentation/"
+					},
+					"response": []
+				},
+				{
+					"name": "Pet Food Facts",
+					"_postman_id": "3df01ad8-bb63-4d48-bc80-b775d1fdb534",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "https://world.openpetfoodfacts.org/api/v0/product/20106836.json",
+						"description": "Returns facts on pet food using barcode."
+					},
+					"response": []
+				}
+			],
+			"_postman_id": "cc9a641a-56d8-4433-93cc-88b8e45f4865",
+			"description": "These are public API endpoints for animals.",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "7708e55e-6515-47ae-9d42-82c726553e0f",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "153243b4-c9b9-4008-9cac-3615d596ab6d",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "New Request",
+			"_postman_id": "2318bb75-75a0-4c41-8bf7-fbe35b73c1ee",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
