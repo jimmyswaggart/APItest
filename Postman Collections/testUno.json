@@ -66,6 +66,23 @@
 				},
 				{
 					"name": "Pet Food Facts",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "7487fd7f-551d-4bb3-985f-b7a93447de7f",
+								"exec": [
+									"pm.test(\"Body matches string\", function () {\r",
+									"    pm.expect(pm.response.text()).to.include(\"orlando\");\r",
+									"});\r",
+									"pm.test(\"Successful POST request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([201, 202]);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"id": "3df01ad8-bb63-4d48-bc80-b775d1fdb534",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
