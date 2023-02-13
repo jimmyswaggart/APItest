@@ -18,6 +18,9 @@
 								"exec": [
 									"pm.test(\"Body is correct\", function () {\r",
 									"    pm.response.to.have.body(\"Cats make more than 100 different sounds whereas dogs make around 10\");\r",
+									"});\r",
+									"pm.test(\"Successful POST request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([201, 202]);\r",
 									"});"
 								],
 								"type": "text/javascript"
