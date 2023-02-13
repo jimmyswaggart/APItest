@@ -49,6 +49,9 @@
 								"exec": [
 									"pm.test(\"Body matches string\", function () {\r",
 									"    pm.expect(pm.response.text()).to.include(\"westhighland\");\r",
+									"pm.test(\"Successful POST request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([201,202]);\r",
+									"});\r",
 									"});"
 								],
 								"type": "text/javascript"
