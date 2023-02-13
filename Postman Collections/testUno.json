@@ -57,7 +57,7 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "7708e55e-6515-47ae-9d42-82c726553e0f",
+						"id": "8d575948-202b-4e46-9991-a31120180577",
 						"type": "text/javascript",
 						"exec": [
 							""
@@ -67,10 +67,13 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "153243b4-c9b9-4008-9cac-3615d596ab6d",
+						"id": "2aaf0445-5d1e-483c-b29d-084bc921b7b3",
 						"type": "text/javascript",
 						"exec": [
-							""
+							"pm.test(\"Your test name\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.value).to.eql(100);",
+							"});"
 						]
 					}
 				}
