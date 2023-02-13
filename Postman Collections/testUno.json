@@ -10,6 +10,20 @@
 			"item": [
 				{
 					"name": "Cat Facts",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "24fda806-ff33-44fa-9159-87d0b6439d50",
+								"exec": [
+									"pm.test(\"Body is correct\", function () {\r",
+									"    pm.response.to.have.body(\"Cats make more than 100 different sounds whereas dogs make around 10\");\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"id": "7503e039-8118-4b85-85ae-61b54ec2cfa0",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
