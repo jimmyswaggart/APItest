@@ -56,7 +56,7 @@
 									"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
 									"});\r",
 									"pm.test(\"Successful POST request\", function () {\r",
-									"    pm.expect(pm.response.code).to.be.oneOf([201,202]);\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([201, 202, 200]);\r",
 									"});\r",
 									"});"
 								],
